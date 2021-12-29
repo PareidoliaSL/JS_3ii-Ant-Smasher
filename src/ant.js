@@ -21,7 +21,7 @@ class Ant {
     }
     getAnt() {
         let base_image = new Image();
-        base_image.src = 'images/ant.png';
+        base_image.src = 'images/ant.gif';
         ctx.drawImage(base_image, this.positionX, this.positionY, this.width, this.height);
 
     }
